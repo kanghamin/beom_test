@@ -1,0 +1,16 @@
+@charset "utf-8";
+.livereInfo {}
+.livereInfo .open {display:block; line-height: 0; position:absolute; right:0;  z-index:10;}
+.livereInfo .open:before {content: '운영원칙'; font-size: 13px; display: inline-block; line-height: 20px; height: 20px; color: #757575; vertical-align: middle;}
+.livereInfo .open:after {content: ''; display: inline-block; content: '\e93f'; font-family: 'xeicon'; font-size: 13px; color: #757575; vertical-align: middle;}
+.livereInfo .open i {position:absolute; left:-10000%; top:0; overflow:hidden; width:0; height:0; font-size:0; line-height:0; text-indent:-10000px;}
+
+.livereInfo .livere_info_cont {display:none; position:absolute; left:0; top:35px; z-index:100; border:1px solid #ccc; background:#fff; width:100%;}
+.livereInfo .livere_info_cont.on {display:block;}
+.livereInfo .livere_info_cont p {font-size:14px; background:#676767; color:#fff; padding:10px;}
+.livereInfo .livere_info_cont ul {padding:10px;}
+.livereInfo .livere_info_cont ul li {padding:3px 0;}
+.livereInfo .livere_info_cont .close {position:absolute; top:13px; right:13px; display:block; width:15px; height:15px; background:url('../images/livere/livere_info_close.png') no-repeat left top;}
+.livereInfo .livere_info_cont .close i {position:absolute; left:-10000%; top:0; overflow:hidden; width:0; height:0; font-size:0; line-height:0; text-indent:-10000px;}
+
+#livereContainer {position: relative; box-sizing: border-box; margin-bottom: 30px;}
